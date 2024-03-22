@@ -1,0 +1,36 @@
+.cabecalho{
+    background-color: #20303d;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+}
+
+.cabecalho-titulo {
+    /* float: right; */
+    /*margin-right: 100px;*/
+    /* display: inline-block; */
+    color: #fff;
+    margin: 0;
+}
+
+.menu-navegacao {
+     display: flex;
+     gap: 15rem;
+     justify-content: center;
+     background-color: blue;
+}
+
+.menu-navegacao li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-navegacao li {
+    list-style-type:none;
+    padding: 6px;
+}
+
+.teste {
+    display: flex;
+}
