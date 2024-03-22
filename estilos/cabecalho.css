@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap');
+
+
 .cabecalho{
     background-color: #20303d;
 }
@@ -7,23 +10,24 @@
 }
 
 .cabecalho-titulo {
-    /* float: right; */
-    /*margin-right: 100px;*/
-    /* display: inline-block; */
     color: #fff;
     margin: 0;
+    margin-left: 6.5rem;
+    font-size: 2.5rem;
+    font-family: "Encode Sans SC", sans-serif;
+}
+
+.cabecalho-logo {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
 }
 
 .menu-navegacao {
      display: flex;
      gap: 15rem;
      justify-content: center;
-     background-color: blue;
-}
-
-.menu-navegacao li a {
-    text-decoration: none;
-    color: #fff;
+     background-color: rgb(25, 34, 138);
 }
 
 .menu-navegacao li {
@@ -31,6 +35,16 @@
     padding: 6px;
 }
 
-.teste {
-    display: flex;
+.menu-navegacao li a {
+    text-decoration: none;
+    color: #fff;
 }
+
+.menu-navegacao-link {
+    font-size: 1.5rem;
+}
+
+.menu-navegacao-link:hover {
+    color: #a4252f;
+}
+
