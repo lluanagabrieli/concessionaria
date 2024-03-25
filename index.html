@@ -11,18 +11,30 @@
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho-logo">
+        <div class="cabecalho-logo-titulo">
             <img src="/fotos/logo-loja.jpg" alt="Logomarca da loja" class="cabecalho-imagem">
             <h1 class="cabecalho-titulo">Melc Motors</h1>
         </div>
-        
+
         <nav class="menu-navegacao">
-            <li><a href="" class="menu-navegacao-link">A loja</a></li>
-            <li><a href="" class="menu-navegacao-link">Estoque</a></li>
-            <li><a href="" class="menu-navegacao-link">Endereço</a></li>
-            <li><a href="" class="menu-navegacao-link">Contato</a></li>
+            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">A loja</a></li>
+            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Estoque</a></li>
+            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
+            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
         </nav>
+
+        <div>
+            <button id="menu-botao" onclick="abrirMenu()" type="submit">&#9776;</button>
+            <nav class="menu-navegacao-botao">
+                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">A loja</a></li>
+                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Estoque</a></li>
+                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
+                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
+            </nav>
+        </div>
     </header>
+
+    <script src="/script/script.js"></script>
 </body>
 
 </html>
