@@ -15,3 +15,32 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.rodape-links {
+  color: white;
+}
+
+/* .cabecalho {
+  display: flex;
+} */
+
+.rodape-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+}
+
+.rodape-nav li {
+  list-style-type: none;
+}
+
+.rodape-nav li a{
+  text-decoration: none;
+}
