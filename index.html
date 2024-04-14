@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos/cabecalho.css">
-    <link rel="stylesheet" href="/rodape.css">
     <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css" />
     <title>MelcMotors</title>
 </head>
 
@@ -37,10 +36,14 @@
     </header>
 
     <!-- rodapé -->
-    <footer class="cabecalho">
-        <div style="margin-left: 50px;">
-            <h2 style="color: white;">Links úteis</h2>
-            <nav class="rodape-nav">
+    <footer>
+        <div class="div-logo">
+            <img src="/fotos/logo-loja.jpg" alt="Logo da loja MelMotors" class="rodape-logo">
+        </div>
+
+        <div>
+            <h2 class="rodape-titulo links-uteis-titulo">Links úteis</h2>
+            <nav class="rodape-nav links-uteis">
                 <li><a class="rodape-links" href="">A loja</a></li>
                 <li><a class="rodape-links" href="">Estoque</a></li>
                 <li><a class="rodape-links" href="">Endereço</a></li>
@@ -48,36 +51,38 @@
             </nav>
         </div>
 
-        <div style="margin-left: 50px;">
-            <h2 style="color: white;">Endereço</h2>
+        <div>
+            <h2 class="rodape-titulo">Endereço</h2>
+            <p class="rodape-p">Rua Lorem ipsum dolor, nº 150, Santa Rosa
+            <p class="rodape-p">Itajubá/Minas Gerais</p>
+            </p>
+        </div>
+
+        <div>
+            <h2 class="rodape-titulo">Contato</h2>
             <nav class="rodape-nav">
-                <li><a class="rodape-links" href="">Rua Lorem ipsum dolor, nº 150, Santa Rosa</a></li>
+                <li><a class="rodape-links" href="tel:">(35) 3622-1234</a></li>
+                <li><a class="rodape-links" href="mailto:melcmotors@hotmail.com">melcmotors@hotmail.com</a></li>
             </nav>
         </div>
 
-        <div style="margin-left: 50px;">
-            <h2 style="color: white;">Contato</h2>
-            <nav class="rodape-nav">
-                <li><a class="rodape-links" href="">(xx)xxxx-xxxx</a></li>
-                <li><a class="rodape-links" href="">melcmotors@hotmail.com</a></li>
-            </nav>
+        <div>
+            <h2 class="rodape-titulo">Horários de atendimento</h2>
+            <p class="rodape-p">Segunda-sexta: 09h às 18h </p>
+            <p class="rodape-p">Sábado: 09h às 14h </p>
         </div>
-
-        <div style="margin-left: 50px;">
-            <h2 style="color: white;">Horários de atendimento</h2>
-            <nav class="rodape-nav">
-                <li><a class="rodape-links" href="">Segunda-sexta: 09h às 18h </a></li>
-            </nav>
-        </div>
-        <div style="margin-left: 50px;">
-            <h2 style="color: white;">Redes sociais</h2>
-            <nav class="rodape-nav">
-                <li><a class="rodape-links" href="">Instagram </a></li>
-                <li><a class="rodape-links" href="">Facebook </a></li>
-                <li><a class="rodape-links" href="">TikTok </a></li>
-            </nav>
+        <div>
+            <h2 class="rodape-titulo">Siga a gente</h2>
+            <div>
+                <nav class="rodape-nav redes-sociais">
+                    <li><a class="rodape-links" href=""> <i class="ph-bold ph-instagram-logo"></i></a></li>
+                    <li><a class="rodape-links" href=""><i class="ph-bold ph-facebook-logo"></i></a></li>
+                    <li><a class="rodape-links" href=""><i class="ph-bold ph-tiktok-logo"></i></a></li>
+                </nav>
+            </div>
         </div>
     </footer>
     <script src="/script/script.js"></script>
 </body>
+
 </html>
