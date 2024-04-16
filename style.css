@@ -106,3 +106,14 @@ footer {
     display: none;
   }
 }
+
+/* SOBRE A LOJA */
+.sobre {
+  display: flex;
+  padding: 40px;
+}
+
+.sobre img {
+  height: 25rem;
+  width: auto;
+}
