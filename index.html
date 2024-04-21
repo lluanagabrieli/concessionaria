@@ -11,15 +11,15 @@
 
 <body>
     <!-- CABEÇALHO -->
-    <header class="cabecalho" style="position: relative;">
+    <header class="cabecalho">
         <div class="cabecalho-logo-titulo">
             <img src="/fotos/logo-loja.jpg" alt="Logomarca da loja" class="cabecalho-imagem">
             <h1 class="cabecalho-titulo">Melc Motors</h1>
         </div>
 
         <nav class="menu-navegacao">
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">A loja</a></li>
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Estoque</a></li>
+            <li class="menu-navegacao-lista"><a href="#sobre" class="menu-navegacao-link">A loja</a></li>
+            <li class="menu-navegacao-lista"><a href="#estoque" class="menu-navegacao-link">Estoque</a></li>
             <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
             <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
         </nav>
@@ -27,8 +27,8 @@
         <div>
             <button id="menu-botao" onclick="abrirMenu()" type="submit">&#9776;</button>
             <nav class="menu-navegacao-botao">
-                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">A loja</a></li>
-                <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Estoque</a></li>
+                <li class="menu-navegacao-lista"><a href="#sobre" class="menu-navegacao-link">A loja</a></li>
+                <li class="menu-navegacao-lista"><a href="#estoque" class="menu-navegacao-link">Estoque</a></li>
                 <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
                 <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
             </nav>
@@ -37,71 +37,71 @@
     <!-- /CABEÇALHO -->
 
     <!-- SOBRE A LOJA -->
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <div class="sobre-container">
             <h3>Sobre a loja</h3>
             <h2>A confiabilidade é a chave para o nosso sucesso</h2>
-            <p>
+            <p class="primeiro-p">
                 Desde 1980, a Melc Motors, uma loja de veículos familiar, tem sido um <strong>marco na nossa comunidade</strong>. Fundada por Carlos e Ana Melo, a loja começou como um pequeno negócio de venda de carros usados. Com o passar dos anos, a Melc Motors cresceu e se transformou em uma concessionária de veículos novos e usados, oferecendo uma variedade de marcas e modelos para atender às necessidades de nossos clientes.
             </p>
             <p style="margin-top: 0;">
                 A tradição da Melc Motors é baseada em três pilares principais: <strong>qualidade, serviço ao cliente e confiabilidade</strong>. Nós nos orgulhamos de oferecer veículos de alta qualidade, inspecionados e certificados por nossos mecânicos especializados. Nosso compromisso com o serviço ao cliente é inigualável. Nossa equipe amigável e experiente está sempre pronta para ajudar os clientes a encontrar o veículo perfeito que atenda às suas necessidades e orçamento.
             </p>
             <div class="div-botao">
-                <button>Consulte mais informações</button>
+                <button>Faça uma visita</button>
             </div>
         </div>
-
         <img src="/fotos/sobre.jpg" alt="Foto da loja.">
     </section>
     <!-- /SOBRE A LOJA -->
 
     <!-- ESTOQUE -->
-    <section>
-        <h2 style="text-align: center;">Estoque</h2>
-        <div style="display: flex; justify-content: center; gap: 30px;">
-            <div style="width: 250px;  background-color: gray; display: flex; flex-direction: column; padding: 10px; border-radius: 10px;">
-                <img src="/fotos/bentley.png" alt="Carro Bentley" style="width: 100%;height: 160px;">
-                <h3>Carro Bentley</h3>
-                <span>Ano: 2012</span>
-                <span>Km: 4444</span>
-                <div style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
-                    <button style="width: 140px;padding: 10px;border-radius: 5px;">Mais informações</button>
+    <section class="card-secao" id="estoque">
+        <h2 class="estoque-titulo">Estoque</h2>
+        <div class="div-cards">
+            <div class="card">
+                <img src="/fotos/bentley.png" alt="Carro Bentley">
+                <h3 class="card-nome-carro">Bentley</h3>
+                <span><strong>Ano:</strong> 2012</span>
+                <span><strong>Km:</strong> 4444</span>
+                <div class="div-botao">
+                    <button>Mais informações</button>
                 </div>
             </div>
-            <div style="width: 250px;  background-color: gray; display: flex; flex-direction: column;padding: 10px; border-radius: 10px;">
+            <div class="card">
                 <img src="/fotos/lambo.png" alt="Carro Lambo" style="width: 100%; height: 160px;">
-                <h3>Carro Bentley</h3>
-                <span>Ano: 2012</span>
-                <span>Km: 4444</span>
-                <div style="text-align: center;padding-top: 20px; padding-bottom: 20px;">
-                    <button style="width: 140px;padding: 10px;border-radius: 5px;">Mais informações</button>
+                <h3 class="card-nome-carro">Lambo</h3>
+                <span><strong>Ano:</strong> 2012</span>
+                <span><strong>Km:</strong> 4444</span>
+                <div class="div-botao">
+                    <button>Mais informações</button>
                 </div>
             </div>
-            <div style="width: 250px; background-color: gray; display: flex; flex-direction: column;padding: 10px; border-radius: 10px;">
-                <img src="/fotos/mercedes.png" alt="Carro Mercedes" style="width: 100%;height: 160px;">
-                <h3>Carro Bentley</h3>
-                <span>Ano: 2012</span>
-                <span>Km: 4444</span>
-                <div style="text-align: center;padding-top: 20px; padding-bottom: 20px;">
-                    <button style="width: 140px; padding: 10px;border-radius: 5px;">Mais informações</button>
+            <div class="card">
+                <img src="/fotos/mercedes.png" alt="Carro Mercedes">
+                <h3 class="card-nome-carro">Mercedes</h3>
+                <span><strong>Ano:</strong> 2012</span>
+                <span><strong>Km:</strong> 4444</span>
+                <div class="div-botao">
+                    <button>Mais informações</button>
                 </div>
             </div>
-            <div style="width: 250px; background-color: gray; display: flex; flex-direction: column;padding: 10px; border-radius: 10px;">
-                <img src="/fotos/porsche.png" alt="Carro Porsche" style="width: 100%;height: 160px;">
-                <h3>Carro Bentley</h3>
-                <span>Ano: 2012</span>
-                <span>Km: 4444</span>
-                <div style="text-align: center;padding-top: 20px; padding-bottom: 20px;">
-                    <button style="width: 140px; padding: 10px;border-radius: 5px;">Mais informações</button>
+            <div class="card">
+                <img src="/fotos/porsche.png" alt="Carro Porsche">
+                <h3 class="card-nome-carro">Porsche</h3>
+                <span><strong>Ano:</strong> 2012</span>
+                <span><strong>Km:</strong> 4444</span>
+                <div class="div-botao">
+                    <button>Mais informações</button>
                 </div>
             </div>
         </div>
     </section>
     <!-- /ESTOQUE   -->
 
+
     <!-- RODAPÉ -->
-    <!-- <footer style="position: absolute; top: 100%;">
+    <footer>
         <div class="div-logo">
             <img src="/fotos/logo-loja.jpg" alt="Logo da loja MelMotors" class="rodape-logo">
         </div>
@@ -146,7 +146,7 @@
                 </nav>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script src="/script/script.js"></script>
 </body>
 
