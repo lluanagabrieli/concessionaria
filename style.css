@@ -197,7 +197,8 @@ footer {
   bottom: 0;
   height: 200px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
   color: var(--branco);
 }
 
@@ -216,7 +217,7 @@ footer {
 
 .rodape-nav li {
   list-style-type: none;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .rodape-nav li a {
@@ -370,17 +371,12 @@ footer {
   footer {
     text-align: center;
     flex-direction: column;
-    font-size: 1.5em;
-    height: 250vh;
+    height: 180vh;
     bottom: 0;
   }
 }
 
 @media (min-width: 901px) and (max-width: 1400px) {
-  footer {
-    gap: 20px;
-    justify-content: center;
-  }
   .div-logo {
     display: none;
   }
