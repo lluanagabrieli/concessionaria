@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap");
-
 .cabecalho {
   background-color: var(--background-cabecalho);
 }
@@ -12,7 +10,7 @@
 .cabecalho-titulo {
   color: var(--branco);
   font-size: 2.5rem;
-  font-family: var(--fonte-titulo);
+  font-family: var(--fonte-nome-loja);
 }
 
 #menu-botao {
@@ -39,7 +37,7 @@
 }
 
 .menu-navegacao-link {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: var(--branco);
   transition: 0.5s;

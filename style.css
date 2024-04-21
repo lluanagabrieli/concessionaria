@@ -1,19 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
   --background-cabecalho: #20303d;
-  --branco: #fff;
+  --branco: #f0f1fc;
   --azul-navegacao: #19228a;
   --vermelho-hover: #a4252f;
+  --fonte-color: ##000000ab;
 
-  --fonte-texto: "Quicksand", sans-serif;
-  --fonte-titulo: "Encode Sans SC", sans-serif;
+  --fonte-nome-loja: "Encode Sans SC", sans-serif;
+  --fonte-texto: "Montserrat", sans-serif;
 }
 
 body {
   font-family: var(--fonte-texto);
   margin: 0;
   padding: 0;
+  background: var(--branco);
 }
 
 footer {
@@ -110,10 +113,64 @@ footer {
 /* SOBRE A LOJA */
 .sobre {
   display: flex;
-  padding: 40px;
+  padding: 80px;
 }
 
 .sobre img {
   height: 25rem;
   width: auto;
+  padding-top: 40px;
+}
+
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre-container h2,
+.sobre-container h3 {
+  margin: 0;
+}
+
+.sobre-container h2 {
+  font-size: 2rem;
+  color: var(--azul-navegacao);
+}
+
+.sobre-container h3 {
+  font-size: 1rem;
+  color: gray;
+}
+
+.sobre-container p {
+  text-align: justify;
+  line-height: 1.5rem;
+  padding-right: 30px;
+  color: var(--fonte-color);
+}
+
+.sobre-container p strong {
+  color: var(--azul-navegacao);
+}
+
+.div-botao {
+  text-align: center;
+}
+
+.div-botao button {
+  width: 13rem;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  background: var(--azul-navegacao);
+  color: var(--branco);
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.div-botao button:hover {
+  background: var(--background-cabecalho);
 }
