@@ -202,6 +202,33 @@ body {
   font-size: 1.5rem;
 }
 
+/* CONTATO */
+.secao-contato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  input {
+    margin-left: 10px;
+  }
+}
+
+.secao-contato-titulo {
+  text-align: center;
+}
+
+.secao-contato-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-contato-botao {
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+}
+
 /* RODAPÉ **************************************************************************/
 footer {
   background-color: var(--background-cabecalho);
