@@ -190,6 +190,18 @@ body {
   font-family: var(--fonte-nome-loja);
 }
 
+/* ENDEREÇO */
+.secao-endereco {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.secao-endereco-texto {
+  font-size: 1.5rem;
+}
+
 /* RODAPÉ **************************************************************************/
 footer {
   background-color: var(--background-cabecalho);
