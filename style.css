@@ -136,7 +136,7 @@ body {
 
 /* ESTOQUE **********************************************************************/
 .card-secao {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .estoque-titulo {
@@ -204,13 +204,18 @@ body {
 
 /* CONTATO */
 .secao-contato {
+  padding: 0 80px;
+}
+
+.contato-titulo {
+  margin-top: 0;
+}
+
+.secao-contato-informacoes {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
   margin-bottom: 40px;
-
-  input {
-    margin-left: 10px;
-  }
 }
 
 .secao-contato-titulo {
@@ -220,10 +225,49 @@ body {
 .secao-contato-inputs {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  gap: 20px;
+
+  input {
+    padding: 12px;
+    border: none;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    text-indent: 10px;
+  }
+
+  textarea {
+    border: none;
+    border-radius: 15px;
+    text-indent: 10px;
+    background-color: #cdcdcd;
+    text-indent: 18px;
+    font-size: 1rem;
+  }
+
+  button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--vermelho-hover);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background: var(--background-cabecalho);
+  }
 }
 
+/* .secao-contato-formas-contato {
+  display: flex;
+  flex-direction: column;
+} */
+
 .secao-contato-botao {
-  margin-top: 40px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #cdcdcd;

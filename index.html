@@ -20,8 +20,8 @@
         <nav class="menu-navegacao">
             <li class="menu-navegacao-lista"><a href="#sobre" class="menu-navegacao-link">A loja</a></li>
             <li class="menu-navegacao-lista"><a href="#estoque" class="menu-navegacao-link">Estoque</a></li>
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
+            <li class="menu-navegacao-lista"><a href="#endereco" class="menu-navegacao-link">Endereço</a></li>
+            <li class="menu-navegacao-lista"><a href="#contato" class="menu-navegacao-link">Contato</a></li>
         </nav>
 
         <div>
@@ -108,53 +108,38 @@
     <!-- /ESTOQUE   -->
 
     <!-- ENDERECO -->
-    <section class="card-secao secao-endereco">
+    <section class="card-secao secao-endereco" id="endereco">
         <h1 class="estoque-titulo">Faça-nos uma visita!</h1>
         <p class="secao-endereco-texto">Av. Dr. Antônio Braga Filho, 687 - Porto Velho, Itajubá - MG, 37501-002</p>
     </section>
     <!-- /ENDERECO   -->
 
     <!-- CONTATO -->
-    <section style="padding: 0 100px;">
+    <section class="secao-contato" id="contato">
         <h1 class="estoque-titulo secao-contato-titulo">Entre em contato</h1>
-        <div class="secao-contato">
+        <div class="secao-contato-informacoes">
             <div class="secao-contato-inputs">
-                <div class="secao-contato">
-                    <div class="secao-contato-inputs">
-                        <label for="nome">Nome</label>
-                        <input type="text">
-                    </div>
-                    <div class="secao-contato-inputs">
-                        <label for="telefone">Telefone</label>
-                        <input type="number">
-                    </div>
-                </div>
-                
-                <label for="informacoes">Informações</label>
-                <textarea name="informacoes" rows="8"></textarea>
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="Telefone">
+                <!-- <label for="informacoes">Informações</label> -->
+                <textarea name="informacoes" rows="8" placeholder="Mensagem..."></textarea>
                 <button type="submit" class="secao-contato-botao">Enviar</button>
             </div>
-           
-            <div>
-                <h2>Contato</h2>
-    
-                <img src="" alt="Icone do WhatsApp">
-                (35)8899-5566
-        
-                <img src="" alt="Icone de telefone">
-                (35)98899-5566
-        
+
+            <div class="secao-contato-formas-contato">
+                <h2 class="contato-titulo">Contato</h2>
+
+                <p><i class="ph-bold ph-whatsapp-logo" style="color: green; font-size: 1.2rem;"></i>(35)8899-5566</p>
+                <p><i class="ph-bold ph-phone" style="color: blue; font-size: 1.2rem;"></i>(35)8899-5566</p>
+
                 <h2>Atendimento</h2>
                 <p>Segunda a Sexta - 8h às 16h</p>
                 <p>Sábado - 8h à 14h</p>
-        
+
                 <h2>Loja Itajubá</h2>
                 <p>Av. Dr. Antônio Braga Filho, 687 - Porto Velho Itajubá/MG</p>
             </div>
-            
         </div>
-        
-
     </section>
     <!-- /CONTATO   -->
 
