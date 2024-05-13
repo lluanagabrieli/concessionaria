@@ -20,8 +20,8 @@
         <nav class="menu-navegacao">
             <li class="menu-navegacao-lista"><a href="#sobre" class="menu-navegacao-link">A loja</a></li>
             <li class="menu-navegacao-lista"><a href="#estoque" class="menu-navegacao-link">Estoque</a></li>
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Endereço</a></li>
-            <li class="menu-navegacao-lista"><a href="" class="menu-navegacao-link">Contato</a></li>
+            <li class="menu-navegacao-lista"><a href="#endereco" class="menu-navegacao-link">Endereço</a></li>
+            <li class="menu-navegacao-lista"><a href="#contato" class="menu-navegacao-link">Contato</a></li>
         </nav>
 
         <div>
@@ -42,10 +42,18 @@
             <h3>Sobre a loja</h3>
             <h2>A confiabilidade é a chave para o nosso sucesso</h2>
             <p class="primeiro-p">
-                Desde 1980, a Melc Motors, uma loja de veículos familiar, tem sido um <strong>marco na nossa comunidade</strong>. Fundada por Carlos e Ana Melo, a loja começou como um pequeno negócio de venda de carros usados. Com o passar dos anos, a Melc Motors cresceu e se transformou em uma concessionária de veículos novos e usados, oferecendo uma variedade de marcas e modelos para atender às necessidades de nossos clientes.
+                Desde 1980, a Melc Motors, uma loja de veículos familiar, tem sido um <strong>marco na nossa
+                    comunidade</strong>. Fundada por Carlos e Ana Melo, a loja começou como um pequeno negócio de venda
+                de carros usados. Com o passar dos anos, a Melc Motors cresceu e se transformou em uma concessionária de
+                veículos novos e usados, oferecendo uma variedade de marcas e modelos para atender às necessidades de
+                nossos clientes.
             </p>
             <p style="margin-top: 0;">
-                A tradição da Melc Motors é baseada em três pilares principais: <strong>qualidade, serviço ao cliente e confiabilidade</strong>. Nós nos orgulhamos de oferecer veículos de alta qualidade, inspecionados e certificados por nossos mecânicos especializados. Nosso compromisso com o serviço ao cliente é inigualável. Nossa equipe amigável e experiente está sempre pronta para ajudar os clientes a encontrar o veículo perfeito que atenda às suas necessidades e orçamento.
+                A tradição da Melc Motors é baseada em três pilares principais: <strong>qualidade, serviço ao cliente e
+                    confiabilidade</strong>. Nós nos orgulhamos de oferecer veículos de alta qualidade, inspecionados e
+                certificados por nossos mecânicos especializados. Nosso compromisso com o serviço ao cliente é
+                inigualável. Nossa equipe amigável e experiente está sempre pronta para ajudar os clientes a encontrar o
+                veículo perfeito que atenda às suas necessidades e orçamento.
             </p>
             <div class="div-botao">
                 <button>Faça uma visita</button>
@@ -61,7 +69,7 @@
         <div class="div-cards">
             <div class="card">
                 <img src="/fotos/bentley.png" alt="Bentley">
-                <h3 class="card-nome-carro">Bentley Continental Coupe LP  640-2</h3>
+                <h3 class="card-nome-carro">Bentley Continental Coupe LP 640-2</h3>
                 <span><strong>Ano:</strong> 2021/2022</span>
                 <span><strong>Km:</strong> 1.970 </span>
                 <div class="div-botao">
@@ -70,7 +78,7 @@
             </div>
             <div class="card">
                 <img src="/fotos/Lamborghini Uracán.png" alt="Lamborghini" style="width: 100%; height: 160px;">
-                <h3 class="card-nome-carro">Lamborghini Huracán Coupe LP  640-2</h3>
+                <h3 class="card-nome-carro">Lamborghini Huracán Coupe LP 640-2</h3>
                 <span><strong>Ano:</strong> 2023/2023</span>
                 <span><strong>Km:</strong> 72.000</span>
                 <div class="div-botao">
@@ -79,7 +87,7 @@
             </div>
             <div class="card">
                 <img src="/fotos/mercedes.png" alt="Mercedes">
-                <h3 class="card-nome-carro">Mercedes AMG GT 63 S 4M Coupe LP  640-2</h3>
+                <h3 class="card-nome-carro">Mercedes AMG GT 63 S 4M Coupe LP 640-2</h3>
                 <span><strong>Ano:</strong> 2018/2019</span>
                 <span><strong>Km:</strong> 12.485</span>
                 <div class="div-botao">
@@ -100,11 +108,40 @@
     <!-- /ESTOQUE   -->
 
     <!-- ENDERECO -->
-    <section class="card-secao secao-endereco">
-       <h1 class="estoque-titulo">Faça-nos uma visita!</h1>
-       <p class="secao-endereco-texto">Av. Dr. Antônio Braga Filho, 687 - Porto Velho, Itajubá - MG, 37501-002</p>
+    <section class="card-secao secao-endereco" id="endereco">
+        <h1 class="estoque-titulo">Faça-nos uma visita!</h1>
+        <p class="secao-endereco-texto">Av. Dr. Antônio Braga Filho, 687 - Porto Velho, Itajubá - MG, 37501-002</p>
     </section>
     <!-- /ENDERECO   -->
+
+    <!-- CONTATO -->
+    <section class="secao-contato" id="contato">
+        <h1 class="estoque-titulo secao-contato-titulo">Entre em contato</h1>
+        <div class="secao-contato-informacoes">
+            <div class="secao-contato-inputs">
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="Telefone">
+                <!-- <label for="informacoes">Informações</label> -->
+                <textarea name="informacoes" rows="8" placeholder="Mensagem..."></textarea>
+                <button type="submit" class="secao-contato-botao">Enviar</button>
+            </div>
+
+            <div class="secao-contato-formas-contato">
+                <h2 class="contato-titulo">Contato</h2>
+
+                <p><i class="ph-bold ph-whatsapp-logo" style="color: green; font-size: 1.2rem;"></i>(35)8899-5566</p>
+                <p><i class="ph-bold ph-phone" style="color: blue; font-size: 1.2rem;"></i>(35)8899-5566</p>
+
+                <h2>Atendimento</h2>
+                <p>Segunda a Sexta - 8h às 16h</p>
+                <p>Sábado - 8h à 14h</p>
+
+                <h2>Loja Itajubá</h2>
+                <p>Av. Dr. Antônio Braga Filho, 687 - Porto Velho Itajubá/MG</p>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTATO   -->
 
 
     <!-- RODAPÉ -->
