@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background: var(--branco);
+  
 }
 
 /* CABEÇALHO (HEADER) *********************************************/
@@ -205,6 +206,11 @@ body {
 /* CONTATO */
 .secao-contato {
   padding: 0 80px;
+}
+
+.secao-contato a {
+  text-decoration: none;
+  color: black;
 }
 
 .contato-titulo {
