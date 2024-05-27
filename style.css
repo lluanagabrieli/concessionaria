@@ -190,6 +190,29 @@ body {
   font-family: var(--fonte-nome-loja);
 }
 
+.carros-modal {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.8s;
+    border-radius: 10px;
+  }
+
+  img:hover {
+    transform: scale(1.8);
+  }
+}
+
+.modal-cards {
+  display: flex;
+}
+
 /* ENDEREÇO */
 .secao-endereco {
   display: flex;
