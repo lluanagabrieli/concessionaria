@@ -431,6 +431,19 @@ footer {
   .sobre p {
     padding: 0;
   }
+
+  .modal-cards {
+    flex-direction: column;
+  }
+
+  .carros-modal img {
+    display: none;
+  }
+
+  .carros-modal .interior {
+    display: block;
+    width: 40%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 799px) {
