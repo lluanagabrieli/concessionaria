@@ -431,19 +431,6 @@ footer {
   .sobre p {
     padding: 0;
   }
-
-  .modal-cards {
-    flex-direction: column;
-  }
-
-  .carros-modal img {
-    display: none;
-  }
-
-  .carros-modal .interior {
-    display: block;
-    width: 40%;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 799px) {
@@ -481,6 +468,65 @@ footer {
     padding-top: 20px;
   }
 }
+
+/*** MEDIA QUERIES - ESTOQUE **************************/
+@media screen and (max-width: 768px) {
+    .carros-modal img {
+      display: none;
+    }
+
+    .secao-contato-informacoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-contato-inputs {
+        width: 100%;
+    }
+
+    .secao-contato {
+        padding: 10px;
+        text-align: center;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 799px) {
+    .sobre {
+      flex-direction: column;
+      padding: 15rem 60px 0 60px;
+    }
+  
+    .sobre p {
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1024px) {
+    .sobre {
+      flex-direction: column;
+      padding: 10rem 60px 0 60px;
+    }
+  
+    .sobre p {
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .sobre {
+      padding: 10rem 60px 0 60px;
+    }
+  
+    .primeiro-p {
+      display: none;
+    }
+  
+    p {
+      padding-top: 20px;
+    }
+  }
+
+/****************************************/
 
 /*** MEDIA QUERIES - RODAPÉ **************************/
 @media screen and (max-width: 900px) {
@@ -528,12 +574,14 @@ footer {
 
 /* Modal Content */
 .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  height: 70vh;
   border-radius: 15px;
 }
 
