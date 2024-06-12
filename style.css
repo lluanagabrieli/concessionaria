@@ -22,7 +22,6 @@ body {
 /* CABEÇALHO (HEADER) *********************************************/
 .cabecalho {
   background-color: var(--background-cabecalho);
-  position: fixed;
   width: 100%;
 }
 
@@ -74,7 +73,8 @@ body {
 /* SOBRE A LOJA **********************************************************/
 .sobre {
   display: flex;
-  padding: 200px 80px 0 80px;
+  padding: 0 80px;
+  margin-top: 50px;
 }
 
 .sobre img {
@@ -199,8 +199,8 @@ body {
   gap: 20px;
 
   img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
     transition: transform 0.8s;
     border-radius: 10px;
   }
@@ -425,7 +425,7 @@ footer {
 @media screen and (max-width: 768px) {
   .sobre {
     flex-direction: column;
-    padding: 15rem 20px 0 20px;
+    padding: 0 20px;
   }
 
   .sobre p {
@@ -436,7 +436,7 @@ footer {
 @media (min-width: 769px) and (max-width: 799px) {
   .sobre {
     flex-direction: column;
-    padding: 15rem 60px 0 60px;
+    padding: 0 60px;
   }
 
   .sobre p {
@@ -447,7 +447,7 @@ footer {
 @media (min-width: 800px) and (max-width: 1024px) {
   .sobre {
     flex-direction: column;
-    padding: 10rem 60px 0 60px;
+    padding: 0 60px;
   }
 
   .sobre p {
@@ -457,7 +457,7 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   .sobre {
-    padding: 10rem 60px 0 60px;
+    padding: 0 60px;
   }
 
   .primeiro-p {
@@ -493,7 +493,7 @@ footer {
   @media (min-width: 769px) and (max-width: 799px) {
     .sobre {
       flex-direction: column;
-      padding: 15rem 60px 0 60px;
+      padding: 0 60px;
     }
   
     .sobre p {
@@ -504,7 +504,7 @@ footer {
   @media (min-width: 800px) and (max-width: 1024px) {
     .sobre {
       flex-direction: column;
-      padding: 10rem 60px 0 60px;
+      padding: 0 60px;
     }
   
     .sobre p {
@@ -514,7 +514,7 @@ footer {
   
   @media (min-width: 1025px) and (max-width: 1200px) {
     .sobre {
-      padding: 10rem 60px 0 60px;
+      padding: 0 60px;
     }
   
     .primeiro-p {
@@ -540,10 +540,11 @@ footer {
   }
 
   footer {
+    justify-content: start;
     text-align: center;
     flex-direction: column;
-    height: 180vh;
-    bottom: 0;
+    height: 110vh;
+    padding-top: 50px;
   }
 }
 
@@ -577,6 +578,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -585,12 +587,20 @@ footer {
   border-radius: 15px;
 }
 
-/* The Close Button */
+.modal-botao {
+    display: flex; 
+    justify-content: end; 
+    text-align: end; 
+    width: 100%;
+}
+
 .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  display: flex;
+  justify-content: end;
 }
 
 .close:hover,
